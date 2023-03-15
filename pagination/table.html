@@ -4,13 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>pagination</title>
+    <title>table pagination</title>
   </head>
   <body>
-    <div id="data-container"></div>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+      <tbody id="data-container"></tbody>
+    </table>
     <div id="page-navigation"></div>
     <button id="previous-button">Previous</button>
     <button id="next-button">Next</button>
-    <script src="index.js"></script>
+    <script src="table.js"></script>
   </body>
 </html>
